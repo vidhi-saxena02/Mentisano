@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "156478191001",
+    "project_id": "mentisano-c736d",
+    "storage_bucket": "mentisano-c736d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156478191001:android:c99367ebf5772178ea4f08",
+        "android_client_info": {
+          "package_name": "com.example.mental_health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156478191001-9is5qjijvger1efn563rl12qt9h30h4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3mBF7CsixSy7tJf4dmiKdhXNKQIIFp9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156478191001-9is5qjijvger1efn563rl12qt9h30h4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
