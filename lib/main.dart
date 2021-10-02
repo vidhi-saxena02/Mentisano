@@ -13,6 +13,7 @@ class Mentisano extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+
       debugShowCheckedModeBanner: false,
         initialRoute: WelcomeScreen.id,
         routes: {
