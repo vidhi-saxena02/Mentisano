@@ -1,4 +1,4 @@
-
+import 'package:Mentisano/Services/auth_service.dart';
 
 import 'package:flutter/material.dart';
 
@@ -11,6 +11,7 @@ class Register extends StatefulWidget {
 }
 
 class _RegisterState extends State<Register> {
+  AuthClass authClass=AuthClass();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -100,8 +101,8 @@ class _RegisterState extends State<Register> {
                       borderRadius: BorderRadius.all(Radius.circular(30.0)),
                       elevation: 5.0,
                       child: MaterialButton(
-                        onPressed: () {
-                          //Implement registration functionality.
+                        onPressed: () async {
+                          await authClass.googleSignIn(context);
                         },
                         minWidth: 200.0,
                         height: 42.0,

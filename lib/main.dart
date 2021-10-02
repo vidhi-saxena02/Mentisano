@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mental_health/Screens/login_screen.dart';
-import 'package:mental_health/Screens/registeration_screen.dart';
+import 'Screens/login_screen.dart';
+import 'Screens/registeration_screen.dart';
 import 'Screens/welcome_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+Future main() async {
+  await Firebase.initializeApp();
   runApp(Mentisano());
 }
 
