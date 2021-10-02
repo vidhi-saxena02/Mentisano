@@ -14,7 +14,7 @@ class AuthClass {
 
   Future<void> googleSignIn(BuildContext context) async {
     try {
-      GoogleSignInAccount googleSignInAccount = await _googleSignIn.signIn();
+      GoogleSignInAccount? googleSignInAccount = await _googleSignIn.signIn();
       if (googleSignInAccount != null) {
         GoogleSignInAuthentication googleSignInAuthentication = await googleSignInAccount
             .authentication;
