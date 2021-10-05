@@ -33,6 +33,7 @@ dependencies:
   firebase_core: ^1.0.3
   firebase_auth: ^1.2.0
   google_sign_in: ^5.0.2
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
 
 
 dev_dependencies:
@@ -68,6 +69,15 @@ flutter:
     - family: BonheurRoyale
       fonts:
         - asset: fonts/BonheurRoyale-Regular.ttf
+
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+    - family: Jost-Italic
+      fonts:
+        - asset: fonts/Jost-Italic-VariableFont_wght.ttf
+
 
   #
   # For details regarding fonts from package dependencies,

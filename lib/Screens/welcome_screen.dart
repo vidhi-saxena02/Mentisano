@@ -1,3 +1,4 @@
+import 'package:Mentisano/Screens/welcome_page.dart';
 import 'package:flutter/material.dart';
 import 'registeration_screen.dart';
 import 'login_screen.dart';
@@ -12,8 +13,7 @@ class WelcomeScreen extends StatefulWidget {
   _WelcomeScreenState createState() => _WelcomeScreenState();
 }
 
-class _WelcomeScreenState extends State<WelcomeScreen>
-    with SingleTickerProviderStateMixin {
+class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProviderStateMixin {
   late AnimationController controller;
   late Animation<double> animation;
 
