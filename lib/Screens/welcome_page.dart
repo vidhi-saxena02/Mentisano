@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:Mentisano/Components/custom_route.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-
+late User loggedInUser;
 class Welcomepage extends StatefulWidget {
   static const String id = 'welcome_page';
   @override
@@ -12,7 +12,7 @@ class Welcomepage extends StatefulWidget {
 
 class _WelcomepageState extends State<Welcomepage> {
   final _auth = FirebaseAuth.instance;
-  late User loggedInUser;
+  // late User loggedInUser;
 
   @override
   void initState() {
@@ -90,7 +90,7 @@ class _WelcomepageState extends State<Welcomepage> {
                           'Meditation And Relaxing Breathing Videos'),
                       ScaleAnimatedText(
                           'ASMR Which Helps Relieve Negative Mood'),
-                      ScaleAnimatedText(' Distracting Games'),
+                      ScaleAnimatedText(' Engaging Games'),
                       ScaleAnimatedText(
                           'Browse Through Available Therapists And Pychologists Near You'),
                       ScaleAnimatedText(' Focus on Healing Lonely Souls'),

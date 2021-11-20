@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 
 const kButtoncolor = Color(0xFF598885);
 
+
 class Register extends StatefulWidget {
   static const String id = 'registeration_screen';
   @override
